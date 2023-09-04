@@ -37,18 +37,16 @@ body:
 - type: textarea
   attributes:
     label: Resultado esperado
-    description: Comportamiento esperado.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Resultado obtenido
-    description: Comportamiento actual.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Environment
+    label: Ambiente
     value: |
          - OS:
          - Version:
