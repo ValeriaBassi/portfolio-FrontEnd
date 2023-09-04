@@ -55,9 +55,10 @@ body:
 - type: textarea
   atributes:
       label: Environment
+        description:
         value: |
          - OS:
-         - Version
+         - Version:
         render: markdown
       validations:
         required: true
