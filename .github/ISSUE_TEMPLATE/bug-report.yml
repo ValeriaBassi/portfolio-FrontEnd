@@ -24,8 +24,7 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
+    label: Pasos para reproducir
     placeholder: |
       1. 
       2. 
