@@ -49,7 +49,6 @@ body:
 - type: textarea
   attributes:
     label: Environment
-    description: ""
     value: |
          - OS:
          - Version:
