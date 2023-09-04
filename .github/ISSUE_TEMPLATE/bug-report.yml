@@ -13,13 +13,13 @@ body:
 - type: textarea
   attributes:
     label: Descripción
-    description: ""
+    description: Breve descripción del bug encontrado.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Precondiciones
-    description: ""
+    description: Condiciones necesarias para replicar el bug.
   validations:
     required: false
 - type: textarea
@@ -37,13 +37,13 @@ body:
 - type: textarea
   attributes:
     label: Resultado esperado
-    description: ""
+    description: Comportamiento esperado.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Resultado obtenido
-    description: ""
+    description: Comportamiento actual.
   validations:
     required: true
 - type: textarea
