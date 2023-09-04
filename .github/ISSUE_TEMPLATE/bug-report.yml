@@ -1,66 +1,66 @@
 name: Bug
-description: File a bug/issue 
+description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
-body: 
-- type: checkboxes
-  atributes:
-    label: Is it already reported?
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: The is no existing report for this issue.
-      required: true
-- type: textarea
-  atributes:
+body:
+  - type: checkboxes
+    attributes:
+      label: Is it already reported?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: There is no existing report for this issue.
+          required: true
+  - type: textarea
+    attributes:
       label: Description
       description: Write a brief description of what is happening
       validations:
         required: true
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       label: Workaround
-      description: 
+      description: ""
       validations:
         required: false
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       label: Preconditions
-      description: 
+      description: ""
       validations:
         required: false
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       label: Steps to reproduce
-      description: 
+      description: ""
       validations:
         required: true
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       label: Expected behavior
-      description: 
+      description: ""
       validations:
         required: true
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       label: Actual behavior
-      description: 
+      description: ""
       validations:
         required: true
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       label: Severity
       description: Low / Medium / High
       validations:
         required: true
-- type: textarea
-  atributes:
+  - type: textarea
+    attributes:
       description: OS / Version
       validations:
-      required: false
-- type: textarea
-  atributes:
+        required: false
+  - type: textarea
+    attributes:
       description: In which browser the issue is reproduced?
       validations:
-      required: false
+        required: false
       
       
