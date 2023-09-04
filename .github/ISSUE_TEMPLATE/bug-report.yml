@@ -1,6 +1,5 @@
 ---
 name: 🐞 Bug
-decription: File a bug/issue
 title: '[BUG] <title>'
 labels: Bug, Needs Triage
 assignees: ''
