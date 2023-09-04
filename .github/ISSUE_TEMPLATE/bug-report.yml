@@ -57,17 +57,10 @@ body:
       description: OS / Version
       validations:
       required: false
-- type: dropdown
-    id: browsers
-    atributes:
-      label:
-      multiple: true
-      options: 
-      - Firefox
-      - Google chrome
-      - Microsoft Edge
-      - Brave
-      - Safari
-      - Opera GX
+- type: textarea
+  atributes:
+      description: In which browser the issue is reproduced?
+      validations:
+      required: false
       
       
