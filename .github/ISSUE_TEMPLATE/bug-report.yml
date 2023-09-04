@@ -57,5 +57,5 @@ body:
   attributes:
     label: Notas adicionales
   validations:
-    required: true
+    required: false
 
