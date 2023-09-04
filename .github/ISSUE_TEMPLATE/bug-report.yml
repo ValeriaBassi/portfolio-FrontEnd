@@ -54,14 +54,9 @@ body:
         required: true
 - type: textarea
   atributes:
-      label: Environment
-        description:
-        value: |
-         - OS:
-         - Version:
-        render: markdown
+      description: OS / Version
       validations:
-        required: true
+      required: false
 - type: dropdown
     id: browsers
     atributes:
