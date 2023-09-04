@@ -54,4 +54,9 @@ body:
     render: markdown
   validations:
     required: false
+- type: textarea
+  attributes:
+    label: Notas adicionales
+  validations:
+    required: true
 
