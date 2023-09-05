@@ -53,12 +53,16 @@ body:
     render: markdown
   validations:
     required: false
-- type: select
-  label: Severidad
-  enum: |
-  -High
-  -Medium
-  -Low
+- type: dropdown
+  id: Severidad
+  attributes:
+    label: Severidad
+    options: 
+      -High
+      -Medium
+      -Low
+    validations:
+      required: true
 - type: textarea
   attributes:
     label: Notas adicionales
