@@ -61,8 +61,8 @@ body:
       -High
       -Medium
       -Low
-    validations:
-      required: true
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Notas adicionales
