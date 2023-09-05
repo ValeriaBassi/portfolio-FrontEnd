@@ -55,7 +55,7 @@ body:
     required: false
 - type: select
   label: Severidad
-  options:
+  options: |
   -High
   -Medium
   -Low
