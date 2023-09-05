@@ -8,7 +8,7 @@ body:
     label: ¿Duplicado?
     description: Por favor, busca si ya existe una incidencia para el fallo que has encontrado.
     options:
-    - label: He revisado los bugs ya reportados.
+    - label: El bug no ha sido reportado previamente.
       required: true
 - type: textarea
   attributes:
