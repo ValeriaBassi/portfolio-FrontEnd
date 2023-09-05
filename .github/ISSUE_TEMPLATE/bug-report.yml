@@ -58,9 +58,9 @@ body:
   attributes:
     label: Severidad
     options: 
-      -High
-      -Medium
-      -Low
+      - High
+      - Medium
+      - Low
   validations:
     required: true
 - type: textarea
