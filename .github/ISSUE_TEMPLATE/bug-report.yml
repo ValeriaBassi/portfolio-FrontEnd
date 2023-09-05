@@ -59,6 +59,7 @@ body:
   attributes:
     label: Severidad
     options: 
+      - Critical
       - High
       - Medium
       - Low
