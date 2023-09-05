@@ -25,12 +25,13 @@ body:
 - type: textarea
   attributes:
     label: Pasos para reproducir
-    placeholder: |
+    value: |
       1. 
       2. 
       3. 
       4.
       5.
+    render: markdown
   validations:
     required: false
 - type: textarea
