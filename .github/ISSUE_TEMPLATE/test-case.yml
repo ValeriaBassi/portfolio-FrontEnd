@@ -28,5 +28,10 @@ body:
     options:
     - label: Passed
       required: false
+  attributes:
+    label: Failed
+    description: Por favor, busca si ya existe una incidencia para el fallo que has encontrado.
+    options:
     - label: Failed
       required: false
+    
