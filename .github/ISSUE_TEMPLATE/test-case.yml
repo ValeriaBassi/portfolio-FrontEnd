@@ -3,10 +3,30 @@ description: Test Case template
 title: "<title>"
 labels: ["Test Case"]
 body:
+- type: textarea
+  attributes:
+    label: Descripción
+    description: Breve descripción del caso de prueba.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Pasos para reproducir
+    value: |
+      1. 
+      2. 
+      3. 
+      4.
+      5.
+    render: markdown
+  validations:
+    required: false
 - type: checkboxes
   attributes:
-    label: ¿Duplicado?
+    label: Passed
     description: Por favor, busca si ya existe una incidencia para el fallo que has encontrado.
     options:
-    - label: He revisado los bugs ya reportados.
-      required: true
+    - label: Passed
+      required: false
+    - label: Failed
+      required: false
