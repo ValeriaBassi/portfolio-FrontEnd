@@ -1,6 +1,6 @@
 name: Test Case
 description: Test Case template
-title: ""
+title: "<title>"
 labels: ["Test Case"]
 body:
 - type: checkboxes
