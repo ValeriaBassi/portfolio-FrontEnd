@@ -1,7 +1,7 @@
 name: Test Case
-description: File a bug/issue
-title: "[AREA] <title>"
-labels: ["Bug", "Needs Triage"]
+description: Test Case template
+title: ""
+labels: ["Test Case"]
 body:
 - type: checkboxes
   attributes:
